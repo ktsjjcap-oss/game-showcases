@@ -145,14 +145,14 @@ export const details = {
     "cashFlow": "젬 상품 · 패키지 · 30일 계약 · 시즌 패스",
     "gemUses": "소환 · 상자 구매 · 행동력 충전 · 상점 새로고침 · 도전 모드 추가 입장",
     "goldFrom": "플레이 보상·상점·패스",
-    "goldUses": "호스트 출전비 · 숙련도 상승 · 능력치 강화 · 오늘의 상점에서 조각 구매",
+    "goldUses": "호스트 출전비 · 유령 능력치 강화 · 호스트 성급·스킬 강화 · 상점 조각 구매",
     "staminaUses": "챕터 입장 시 행동력 5 소모 · 시간에 따라 회복하거나 젬으로 충전",
     "loopTitle": "플레이와 수집·성장이 이어지는 순환",
     "loop": [
       "챕터·도전 플레이",
       "골드·호스트 조각 획득",
-      "숙련도·능력치 강화",
-      "다음 챕터·더 높은 층 도전"
+      "성급·능력치·스킬 강화",
+      "새로운 파티로 다음 도전"
     ],
     "accelerate": "젬 소환·상자로 수집 보완",
     "productsTitle": "플레이 방식에 맞춘 상품 구성",
@@ -324,14 +324,14 @@ export const details = {
     "cashFlow": "Gem packs · Bundles · 30-day plans · Season pass",
     "gemUses": "Summons · Chest purchases · Stamina refills · Shop refreshes · Extra challenge entries",
     "goldFrom": "Play rewards · Shop · Pass",
-    "goldUses": "Host deployment fees · Mastery upgrades · Stat upgrades · Fragments in Today’s Shop",
+    "goldUses": "Host deployment · Ghost stat upgrades · Host star ranks and skills · Shop fragments",
     "staminaUses": "5 stamina per chapter entry · Regenerates over time or refills with gems",
     "loopTitle": "The play, collection and progression loop",
     "loop": [
       "Play chapters & challenges",
       "Earn gold & host fragments",
-      "Upgrade mastery & stats",
-      "Challenge the next chapter or floor"
+      "Upgrade star ranks, stats & skills",
+      "Take your next party into battle"
     ],
     "accelerate": "Gem summons and chests support collection",
     "productsTitle": "In-App Products",
@@ -503,14 +503,14 @@ export const details = {
     "cashFlow": "ジェム商品 · パック · 30日契約 · シーズンパス",
     "gemUses": "召喚 · 宝箱購入 · スタミナ回復 · ショップ更新 · モードへの追加挑戦",
     "goldFrom": "プレイ報酬・ショップ・パス",
-    "goldUses": "ホストの出撃費用 · 熟練度強化 · 能力値強化 · 今日のショップで欠片を購入",
+    "goldUses": "ホスト出撃費用 · 幽霊の能力強化 · ホストの星ランク・スキル強化 · ショップで欠片購入",
     "staminaUses": "チャプター開始時にスタミナ5消費 · 時間経過またはジェムで回復",
     "loopTitle": "プレイ・収集・育成の循環",
     "loop": [
-      "チャプター・挑戦をプレイ",
-      "ゴールドと欠片を獲得",
-      "熟練度・能力を強化",
-      "次のチャプター・上の階へ挑戦"
+      "チャプター・モードに挑戦",
+      "ゴールドとホストの欠片を獲得",
+      "星ランク・能力・スキルを強化",
+      "新たなパーティで次の挑戦へ"
     ],
     "accelerate": "ジェム召喚と宝箱で収集を補助",
     "productsTitle": "遊び方に合わせた商品構成",

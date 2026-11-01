@@ -1,7 +1,7 @@
 export const revision = {
   "ko": {
-    "hero": "빙의로 달라지는 전투,<br>모바일 로그라이크 액션",
-    "lead": "원작의 빙의 시스템에 자동 공격과 카드 선택을 더했습니다.<br>다양한 호스트의 무기와 스킬로 스테이지를 공략하세요.",
+    "hero": "빙의로 완성하는 파티,<br>조합으로 달라지는 전투",
+    "lead": "메인 1명과 보조 2명이 함께 싸우는 로그라이크 액션.<br>원작의 호스트로 나만의 파티를 완성하세요.",
     "intro": "원작의 빙의 액션을,<br>모바일 로그라이크로 새롭게!",
     "introBody": "적의 몸에 빙의해 싸우는 원작의 특징을 계승했습니다. 이동 중에는 적의 공격을 피하고, 멈추면 자동으로 공격합니다. 호스트 교체와 카드 선택으로 나만의 전투 스타일을 만들어보세요.",
     "features": [
@@ -78,12 +78,12 @@ export const revision = {
       ]
     ],
     "storeCaption": "상점과 시즌 패스 기획 화면",
-    "end": "다양한 호스트로 즐기는<br>새로운 어벤징 스피릿",
-    "endBody": "빙의와 카드 조합으로 달라지는 전투를<br>모바일에서 즐겨보세요."
+    "end": "빙의로 동료를 모으고,<br>조합으로 다음 전투를 바꾸세요.",
+    "endBody": "원작의 호스트와 새로운 파티 전략.<br>어벤징 스피릿-M에서 나만의 조합을 완성하세요."
   },
   "en": {
-    "hero": "Switch hosts.<br>Discover mobile roguelike action.",
-    "lead": "The original possession system meets automatic attacks and card choices.<br>Fight through stages with each host’s unique weapons and skills.",
+    "hero": "Possess hosts. Form a party.<br>Change the way you fight.",
+    "lead": "Roguelike action with one main host and two supports.<br>Build your own party from the original game’s hosts.",
     "intro": "Classic possession,<br>reimagined as a mobile roguelike.",
     "introBody": "Possess hosts to fight, just as in the original. Move to avoid enemy attacks and stand still to attack automatically. Switch hosts and choose cards to develop your own playstyle.",
     "features": [
@@ -160,12 +160,12 @@ export const revision = {
       ]
     ],
     "storeCaption": "Concept screens for the shop and season pass",
-    "end": "A new Avenging Spirit.<br>Many ways to fight.",
-    "endBody": "Possess hosts, combine cards and find new ways to fight.<br>Discover Avenging Spirit on mobile."
+    "end": "Recruit through possession.<br>Change the fight with your party.",
+    "endBody": "Classic hosts. New party strategies.<br>Find your own combination in AVENGING SPIRIT-M."
   },
   "ja": {
-    "hero": "憑依で身体を乗り換える、<br>モバイルローグライクアクション",
-    "lead": "原作の憑依システムに、自動攻撃とカード選択をプラス。<br>ホストごとの武器とスキルでステージを攻略しよう。",
+    "hero": "憑依で仲間を集め、<br>組み合わせで戦いを変える。",
+    "lead": "メイン1体とサポート2体で戦うローグライクアクション。<br>原作のホストで、自分だけのパーティを編成しよう。",
     "intro": "原作の憑依アクションを、<br>モバイルローグライクへ！",
     "introBody": "敵の身体に憑依して戦う、原作の特徴を継承。移動して敵の攻撃を避け、止まると自動で攻撃します。ホストの切り替えとカード選択で、自分だけの戦い方を見つけましょう。",
     "features": [
@@ -242,7 +242,7 @@ export const revision = {
       ]
     ],
     "storeCaption": "ショップとシーズンパスの企画画面",
-    "end": "多彩なホストで楽しむ、<br>新しいアベンジング・スピリット。",
-    "endBody": "憑依とカードの組み合わせで変わる戦闘を、<br>モバイルで楽しもう。"
+    "end": "憑依で仲間を集め、<br>編成で次の戦いを変えよう。",
+    "endBody": "原作のホストと、新しいパーティ戦略。<br>AVENGING SPIRIT-Mで自分だけの組み合わせを。"
   }
 };

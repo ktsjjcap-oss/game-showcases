@@ -1,7 +1,7 @@
 export const copy = {
   "ko": {
     "nav": [
-      "빙의 액션",
+      "빙의 파티",
       "호스트와 스킬",
       "챕터 진행",
       "성장과 콘텐츠"
@@ -91,12 +91,12 @@ export const copy = {
     ],
     "cardNote": "일반 · 희귀 · 영웅 · 전설 / 중복 카드는 최대 Lv.5 / 호스트 교체 후에도 유지",
     "journey": "30개의 스테이지.<br>매번 달라지는 선택.",
-    "journeyLead": "전투로 보상을 모으고, 제단과 상인에서 다음 전투를 준비하세요. 30번째 스테이지에서 챕터 보스가 기다립니다.",
+    "journeyLead": "20개 챕터, 챕터마다 30개 스테이지. 전투로 보상을 모으고, 제단과 상인에서 준비한 뒤 챕터 보스에 도전하세요.",
     "milestones": [
       [
         "01",
         "첫 호스트",
-        "이번 플레이를 시작할 호스트를 선택합니다."
+        "유령으로 출전해 첫 호스트를 고르고, 전투 중 보조를 영입합니다."
       ],
       [
         "05 · 25",
@@ -212,8 +212,8 @@ export const copy = {
     "ending": "새로운 호스트로,<br>다시 한 판.",
     "endBody": "빙의의 재미를 계승하고,<br>선택과 성장으로 플레이를 확장합니다.",
     "footer": "개발 중인 게임입니다. 콘텐츠와 상품 구성은 변경될 수 있습니다.",
-    "imageNote": "화면은 기획 이미지이며 한국어 원본 UI를 포함합니다. 메인 비주얼은 소개용 일러스트입니다.",
-    "source": "원본 기획서",
+    "imageNote": "최신 한국어 게임 화면을 중심으로 구성했습니다. 일부 상점·소환 이미지는 이전 버전 UI이며, 메인 비주얼은 홍보용 일러스트입니다.",
+    "source": "초기 소개 자료",
     "reference": "디자인 참고",
     "top": "처음으로",
     "print": "PDF로 인쇄",
@@ -222,7 +222,7 @@ export const copy = {
   },
   "en": {
     "nav": [
-      "Possession",
+      "Possession Party",
       "Hosts & Skills",
       "Chapter Progression",
       "Growth & Modes"
@@ -312,12 +312,12 @@ export const copy = {
     ],
     "cardNote": "Common · Rare · Epic · Legendary / Duplicates upgrade to Lv.5 / Retained after switching hosts",
     "journey": "30 stages.<br>A run shaped by choices.",
-    "journeyLead": "Collect rewards in battle and prepare at altars and merchants. The chapter boss awaits in stage 30.",
+    "journeyLead": "Twenty chapters, with thirty stages each. Collect rewards in battle, prepare at altars and merchants, then challenge the chapter boss.",
     "milestones": [
       [
         "01",
         "Your first host",
-        "Choose the body that starts your run."
+        "Deploy as a ghost, choose your first host and recruit supports during combat."
       ],
       [
         "05 · 25",
@@ -433,8 +433,8 @@ export const copy = {
     "ending": "A new host.<br>One more run.",
     "endBody": "The spirit of possession.<br>A new world of choices and growth.",
     "footer": "The game is in development. Content and product offerings are subject to change.",
-    "imageNote": "Concept screens include the original Korean UI. The main visual is a promotional illustration.",
-    "source": "Original proposal",
+    "imageNote": "Updated Korean gameplay screens are shown alongside earlier shop and summoning UI. The main visual is a promotional illustration.",
+    "source": "Initial concept",
     "reference": "Design reference",
     "top": "Back to top",
     "print": "Print to PDF",
@@ -443,7 +443,7 @@ export const copy = {
   },
   "ja": {
     "nav": [
-      "憑依アクション",
+      "憑依パーティ",
       "ホストとスキル",
       "チャプターの流れ",
       "育成とコンテンツ"
@@ -533,12 +533,12 @@ export const copy = {
     ],
     "cardNote": "コモン · レア · エピック · レジェンダリー / 重複で最大Lv.5 / ホスト変更後も維持",
     "journey": "30のステージ。<br>選択が1ランを変える。",
-    "journeyLead": "戦闘で報酬を集め、祭壇や商人で次の戦いに備えましょう。30番目のステージでチャプターボスが待っています。",
+    "journeyLead": "全20チャプター、各30ステージ。戦闘で報酬を集め、祭壇や商人で準備してからチャプターボスに挑みましょう。",
     "milestones": [
       [
         "01",
         "最初のホスト",
-        "挑戦を始めるホストを選びます。"
+        "幽霊で出撃して最初のホストを選び、戦闘中にサポートを仲間に加えます。"
       ],
       [
         "05 · 25",
@@ -654,8 +654,8 @@ export const copy = {
     "ending": "新たなホストで、<br>もう1ラン。",
     "endBody": "憑依の楽しさを受け継ぎ、<br>選択と成長でプレイを広げます。",
     "footer": "本作は開発中です。コンテンツや商品内容は変更される場合があります。",
-    "imageNote": "画面は企画画像で、韓国語の原版UIを含みます。メインビジュアルは紹介用イラストです。",
-    "source": "原案資料",
+    "imageNote": "最新の韓国語ゲーム画面を中心に構成。一部のショップ・召喚画像は以前のUIで、メインビジュアルは紹介用イラストです。",
+    "source": "初期紹介資料",
     "reference": "デザイン参考",
     "top": "トップへ",
     "print": "PDFに印刷",
