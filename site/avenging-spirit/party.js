@@ -1,4 +1,4 @@
-import {partyCopy} from './party-copy.js';
+import {partyCopy} from './party-copy.js?v=20261102';
 const art=(file,alt='',cls='')=>`<img src="assets/party/${file}.webp" alt="${alt}" class="${cls}" loading="lazy">`;
 const face=(id)=>`<img src="assets/source/face_${id}.png" alt="" loading="lazy" width="64" height="64">`;
 const screen=(file,caption)=>`<figure class="party-screen"><div>${art(file,caption)}</div><figcaption>${caption}</figcaption></figure>`;

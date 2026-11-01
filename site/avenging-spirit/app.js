@@ -1,9 +1,9 @@
-import {copy} from './copy.js';
-import {revision} from './revision-copy.js';
-import {elements,economy} from './enhanced.js';
-import {partyIntro,possession,synergies,partyCards,partyGrowth,partyModes,ultimateShowcase} from './party.js';
-import {partyCopy} from './party-copy.js';
-import {hostRoster} from './roster.js';
+import {copy} from './copy.js?v=20261102';
+import {revision} from './revision-copy.js?v=20261102';
+import {elements,economy} from './enhanced.js?v=20261102';
+import {partyIntro,possession,synergies,partyCards,partyGrowth,partyModes,ultimateShowcase} from './party.js?v=20261102';
+import {partyCopy} from './party-copy.js?v=20261102';
+import {hostRoster} from './roster.js?v=20261102';
 let lang=new URLSearchParams(location.search).get('lang');try{lang=lang||localStorage.getItem('avenging-language')}catch{}if(!copy[lang])lang='ko';
 const img=(name,alt='',cls='')=>`<img class="${cls}" src="assets/${name}.webp" alt="${alt}" loading="lazy">`;
 const phone=(name,alt)=>`<figure class="phone">${img(name,alt)}<figcaption>${alt}</figcaption></figure>`;
