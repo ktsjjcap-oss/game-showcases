@@ -1,9 +1,10 @@
-import {copy} from './copy.js?v=20261102';
-import {revision} from './revision-copy.js?v=20261102';
-import {elements,economy} from './enhanced.js?v=20261102';
-import {partyIntro,possession,synergies,partyCards,partyGrowth,partyModes,ultimateShowcase} from './party.js?v=20261102';
-import {partyCopy} from './party-copy.js?v=20261102';
-import {hostRoster} from './roster.js?v=20261102';
+import {bindReviewUI} from './review.js?v=20261102r2';
+import {copy} from './copy.js?v=20261102r2';
+import {revision} from './revision-copy.js?v=20261102r2';
+import {elements,economy} from './enhanced.js?v=20261102r2';
+import {partyIntro,possession,synergies,partyCards,partyGrowth,partyModes,ultimateShowcase} from './party.js?v=20261102r2';
+import {partyCopy} from './party-copy.js?v=20261102r2';
+import {hostRoster} from './roster.js?v=20261102r2';
 let lang=new URLSearchParams(location.search).get('lang');try{lang=lang||localStorage.getItem('avenging-language')}catch{}if(!copy[lang])lang='ko';
 const img=(name,alt='',cls='')=>`<img class="${cls}" src="assets/${name}.webp" alt="${alt}" loading="lazy">`;
 const phone=(name,alt)=>`<figure class="phone">${img(name,alt)}<figcaption>${alt}</figcaption></figure>`;
@@ -22,8 +23,8 @@ ${partyCards(lang)}
 ${partyGrowth(lang)}
 ${partyModes(lang)}
 ${economy(t,lang)}
-<section class="ending"><div><p class="eyebrow">AVENGING SPIRIT-M</p><h2>${t.ending}</h2><p>${t.endBody}</p><a href="#home">${t.top} ↑</a></div></section></main><footer><p>${t.footer}</p><p>${t.imageNote}</p><div><a href="https://claude.ai/artifact/UAXtQeAhgswM2THheBmLEi" target="_blank" rel="noopener">${t.source} ↗</a><a href="https://www.arcsystemworks.jp/absolum/en/" target="_blank" rel="noopener">${t.reference}: ABSOLUM ↗</a><button id="print">${t.print}</button></div><small>AVENGING SPIRIT · © 1991 JALECO / CITY CONNECTION<br>${({ko:"표시 가격은 원화(KRW) 기준입니다. 영문·일문 명칭은 소개용 번역입니다.",en:"Prices are shown in Korean won (KRW). English and Japanese names are provisional translations.",ja:"表示価格は韓国ウォン（KRW）です。英語・日本語の名称は紹介用の仮訳です。"})[lang]}</small></footer>`;
-document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>{const y=scrollY;lang=b.dataset.lang;try{localStorage.setItem('avenging-language',lang)}catch{}const u=new URL(location);u.searchParams.set('lang',lang);history.replaceState(null,'',u);render();scrollTo(0,y)});document.getElementById('print').onclick=()=>print();
-update();}
+<section class="ending"><div><p class="eyebrow">AVENGING SPIRIT-M</p><h2>${t.ending}</h2><p>${t.endBody}</p><a href="#home">${t.top} ↑</a></div></section></main><footer><p>${t.footer}</p><p>${t.imageNote}</p><div><button id="print">${t.print}</button></div><small>AVENGING SPIRIT · © 1991 JALECO / CITY CONNECTION<br>${({ko:"표시 가격은 원화(KRW) 기준입니다. 영문·일문 명칭은 소개용 번역입니다.",en:"Prices are shown in Korean won (KRW). English and Japanese names are provisional translations.",ja:"表示価格は韓国ウォン（KRW）です。英語・日本語の名称は紹介用の仮訳です。"})[lang]}</small></footer>`;
+document.querySelectorAll('[data-lang]').forEach(b=>b.onclick=()=>{const anchor=[...document.querySelectorAll('main section[id]')].filter(s=>s.getBoundingClientRect().top<=document.querySelector('header').getBoundingClientRect().height+30).pop();const anchorId=anchor?.id,anchorOffset=anchor?.getBoundingClientRect().top;const y=scrollY;lang=b.dataset.lang;try{localStorage.setItem('avenging-language',lang)}catch{}const u=new URL(location);u.searchParams.set('lang',lang);history.replaceState(null,'',u);render();const current=anchorId&&document.getElementById(anchorId);scrollTo({top:current?scrollY+current.getBoundingClientRect().top-anchorOffset:y,behavior:"instant"})});document.getElementById('print').onclick=()=>print();
+bindReviewUI(lang);update();}
 function update(){const total=document.documentElement.scrollHeight-innerHeight;document.querySelector('.progress')?.style.setProperty('width',`${total?scrollY/total*100:0}%`)}
 addEventListener('scroll',update,{passive:true});render();

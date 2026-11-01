@@ -1,4 +1,4 @@
-import {details} from './detail-copy.js?v=20261102';
+import {details} from './detail-copy.js?v=20261102r2';
 const src=(n,alt='',cls='')=>`<img class="${cls}" src="assets/source/${n}" alt="${alt}" loading="lazy">`;
 const screen=(n,caption,cls='')=>`<figure class="source-phone ${cls}"><div>${src(n,caption)}</div><figcaption>${caption}</figcaption></figure>`;
 const kicker=(n,title)=>`<p class="eyebrow"><span>${n}</span> ${title}</p>`;
