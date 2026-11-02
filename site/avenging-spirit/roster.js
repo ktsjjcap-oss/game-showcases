@@ -1,8 +1,8 @@
 const hosts=[
-['gangster','R',1,['갱스터','Gangster','ギャング'],['표식 · 처형','Mark & execute','標的・処刑']],
+['gangster','R',1,['갱스터','Gangster','ギャング'],['표식 · 처형','Mark & execute','マーキング・処刑']],
 ['thug','R',1,['폭력배','Hoodlum','ならず者'],['연속 사격','Rapid gunfire','連続射撃']],
 ['amazon','R',1,['아마존','Amazon','アマゾン'],['도약 · 근접 돌격','Leap & strike','跳躍・近接突撃']],
-['hopper','R',1,['호퍼','Hopper','ホッパー'],['정조준 · 급소 공격','Aim & critical hits','精密射撃・急所']],
+['hopper','R',1,['호퍼','Hopper','ホッパー'],['정조준 · 급소 공격','Aim & critical hits','精密射撃・急所攻撃']],
 ['commando_mg','R',1,['코만도 (기관총)','Commando (MG)','コマンドー（機関銃）'],['제압 사격 · 탄막 요새','Suppressive fire & fortress','制圧射撃・弾幕要塞']],
 ['commando_grenade','R',0,['코만도 (수류탄)','Commando (Grenade)','コマンドー（手榴弾）'],['폭격 · 광역 공격','Bombardment & area damage','爆撃・範囲攻撃']],
 ['salamander','R',2,['샐러맨더','Salamander','サラマンダー'],['독 뿜기 · 독 늪','Poison spit & pools','毒噴射・毒沼']],

@@ -1,1 +1,1 @@
-export {partyIntro,possession,synergies,partyCards,partyGrowth,partyModes,ultimateShowcase} from './guide.js?v=20261102r6';
+export {partyIntro,possession,synergies,partyCards,partyGrowth,partyModes,ultimateShowcase} from './guide.js?v=20261102r7';

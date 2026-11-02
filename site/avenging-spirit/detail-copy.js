@@ -204,22 +204,22 @@ export const details = {
       ]
     ],
     "moveRule": "Moving stops attacks. Stand still to automatically attack the nearest enemy.",
-    "elementTitle": "Read enemy elements.<br>Choose the right host.",
-    "elementLead": "Power beats Weapon. Weapon beats Magic. Magic beats Power. Arrows point toward the element you have an advantage against.",
+    "elementTitle": "Check the enemy’s combat type.<br>Choose a host with the advantage.",
+    "elementLead": "Power beats Weapon. Weapon beats Magic. Magic beats Power. Each arrow points from a stronger type to the type it beats.",
     "elementNames": [
       "Power",
       "Weapon",
       "Magic"
     ],
     "elementRoles": [
-      "Blunt · Explosive · Mechanical",
+      "Blunt weapons · Explosives · Machines",
       "Guns · Blades · Spears",
       "Fire · Ice · Lightning · Poison"
     ],
     "adv": "Advantage",
     "disadv": "Disadvantage",
-    "stagger": "Stagger effect",
-    "elementNote": "The same element relationships apply to attacks from enemies and bosses.",
+    "stagger": "Stagger",
+    "elementNote": "Type advantages also apply to enemy and boss attacks.",
     "cardTitle": "Level up.<br>Choose one of three cards.",
     "cardLead": "Level up during combat to earn a card choice. After defeating all enemies in the current stage, choose one of the three cards offered.",
     "cardCaption": "Actual level-up card-selection screen",
@@ -241,8 +241,8 @@ export const details = {
     "growthTitle": "Strengthen all hosts.<br>Specialize in your favorites.",
     "growthLead": "Ghost upgrades affect every host; host upgrades affect only the selected character. Both improve the same stats, but their gains and upgrade limits differ.",
     "growthNames": [
-      "Ghost growth",
-      "Host growth"
+      "Ghost upgrades",
+      "Host upgrades"
     ],
     "growthScope": [
       "Applies to all hosts",
@@ -282,15 +282,15 @@ export const details = {
     "statNames": [
       "Attack",
       "Maximum HP",
-      "Critical chance",
-      "Critical damage",
+      "Critical hit chance",
+      "Critical hit damage",
       "Defense",
       "Attack speed",
       "Range",
       "Move speed"
     ],
     "statsTitle": "Eight stats, with different scopes and upgrade gains",
-    "masteryTitle": "Host fragments → Mastery → Skills and upgrade caps",
+    "masteryTitle": "Host shards → Mastery → Skills and upgrade caps",
     "mastery": [
       "Lv.0 · Basic attack",
       "Lv.1 · Active/passive unlock",
@@ -311,25 +311,25 @@ export const details = {
       "Actual Night of the Dead entry/reward screen"
     ],
     "modeRewards": [
-      "Weekly floor rewards · Host fragments and gold",
-      "Rewards for enemy defeats · Host fragments and gold"
+      "Weekly floor rewards · Host shards and gold",
+      "Rewards for enemy defeats · Host shards and gold"
     ],
-    "bmTitle": "AVENGING SPIRIT-M<br>Business model & products",
+    "bmTitle": "AVENGING SPIRIT-M<br>Monetization & in-app purchases",
     "bmLead": "Currencies and products for collection, upgrades and extra challenges.",
-    "cash": "In-app payment",
+    "cash": "In-app purchases",
     "gem": "Gems",
     "gold": "Gold",
     "stamina": "Stamina",
-    "fragment": "Host fragments",
-    "cashFlow": "Gem packs · Bundles · 30-day plans · Season pass",
+    "fragment": "Host shards",
+    "cashFlow": "Gem packs · Bundles · 30-day passes · Season pass",
     "gemUses": "Summons · Chest purchases · Stamina refills · Shop refreshes · Extra challenge entries",
     "goldFrom": "Play rewards · Shop · Pass",
-    "goldUses": "Host deployment · Ghost stat upgrades · Host skill upgrades · Shop fragments",
+    "goldUses": "Host deployment fees · Ghost stat upgrades · Host skill upgrades · Buy host shards in the shop",
     "staminaUses": "Chapter entry: −5 · Recovers over time · Refill with gems",
     "loopTitle": "The play, collection and progression loop",
     "loop": [
       "Play chapters & challenges",
-      "Earn gold & host fragments",
+      "Earn gold & host shards",
       "Upgrade star ranks, stats & skills",
       "Take your next party into battle"
     ],
@@ -341,19 +341,19 @@ export const details = {
       "28 days · 30 tiers",
       "30 days",
       "30 days",
-      "First purchase doubled"
+      "Double gems on first purchase"
     ],
     "productDesc": [
-      "Gems · Tickets · Essence / Platinum chests · Stamina",
+      "Gems · Tickets · Essence / Platinum Chests · Stamina",
       "Gems · Gold · Tickets at chapter milestones",
-      "Premium rewards / Pass-XP bundle",
+      "Premium rewards / Pass XP bundle",
       "300 gems now · 90 gems + 20 stamina daily",
       "1,000 gems immediately · 200 gems and 40 stamina daily · Max stamina +20 · One free shop refresh daily",
-      "60–7,500 gems · Summoning and convenience"
+      "60–7,500 gems · Summons and convenience features"
     ],
-    "chestTitle": "Host-fragment rewards by chest",
-    "summonTitle": "Collect host fragments with gems and tickets",
-    "rateTitle": "Summoning grade rates",
+    "chestTitle": "Host-shard rewards by chest",
+    "summonTitle": "Collect host shards with gems and tickets",
+    "rateTitle": "Summon rates by rarity",
     "storeTitle": "Actual shop and season-pass screens",
     "note": "The game is in development. Figures and product offerings are subject to change."
   },
@@ -397,7 +397,7 @@ export const details = {
     ],
     "adv": "有利な攻撃",
     "disadv": "不利な攻撃",
-    "stagger": "ひるみ効果",
+    "stagger": "ひるみ",
     "elementNote": "敵とボスからの攻撃にも、同じ属性相性が適用されます。",
     "cardTitle": "レベルアップで、<br>3枚から1枚を選択！",
     "cardLead": "戦闘中にレベルが上がるとカードを選べます。現在のステージの敵をすべて倒した後、提示される3枚から1枚を選びましょう。",
@@ -461,8 +461,8 @@ export const details = {
     "statNames": [
       "攻撃力",
       "最大HP",
-      "会心率",
-      "会心ダメージ",
+      "クリティカル率",
+      "クリティカルダメージ",
       "防御力",
       "攻撃速度",
       "射程",
@@ -476,9 +476,9 @@ export const details = {
       "Lv.1～5 · 基礎能力向上",
       "Lv.6～10 · スキル効果向上"
     ],
-    "modesTitle": "スペクタータワーと亡霊の夜。<br>異なるルールで楽しむ2つの挑戦モード。",
+    "modesTitle": "亡霊の塔と亡霊の夜。<br>異なるルールで楽しむ2つの挑戦モード。",
     "modeNames": [
-      "スペクタータワー",
+      "亡霊の塔",
       "亡霊の夜"
     ],
     "modeCopy": [
@@ -500,11 +500,11 @@ export const details = {
     "gold": "ゴールド",
     "stamina": "スタミナ",
     "fragment": "ホストの欠片",
-    "cashFlow": "ジェム商品 · パック · 30日契約 · シーズンパス",
+    "cashFlow": "ジェムパック · パック · 30日パス · シーズンパス",
     "gemUses": "召喚 · 宝箱購入 · スタミナ回復 · ショップ更新 · モードへの追加挑戦",
     "goldFrom": "プレイ報酬・ショップ・パス",
     "goldUses": "ホスト出撃費用 · 幽霊の能力強化 · ホストのスキル強化 · ショップで欠片購入",
-    "staminaUses": "チャプター入場 −5・時間回復・ジェムで補充",
+    "staminaUses": "チャプター出撃でスタミナ5消費・時間経過で回復・ジェムで補充",
     "loopTitle": "プレイ・収集・育成の循環",
     "loop": [
       "チャプター・モードに挑戦",
@@ -517,15 +517,15 @@ export const details = {
     "productBadges": [
       "インストール後7日間 · 各商品1回",
       "チャプターごとに1回",
-      "28日間 · 30段階",
+      "28日間 · 30ティア",
       "30日間",
       "30日間",
-      "初回購入2倍"
+      "初回購入時のジェム2倍"
     ],
     "productDesc": [
-      "ジェム · 召喚券 · 精髄／プラチナ宝箱 · スタミナ",
+      "ジェム · 召喚券 · エッセンス／プラチナチェスト · スタミナ",
       "進行に応じたジェム · ゴールド · 召喚券",
-      "プレミアム報酬／パス経験値バンドル",
+      "プレミアム報酬／パス経験値セット",
       "即時300ジェム · 毎日90ジェムと20スタミナ",
       "即時1,000ジェム · 毎日200ジェムとスタミナ40 · 最大スタミナ+20 · ショップ更新が毎日1回無料",
       "ジェム60～7,500 · 召喚と便利機能に使用"

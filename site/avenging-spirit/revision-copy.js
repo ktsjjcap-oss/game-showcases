@@ -119,7 +119,7 @@ export const revision = {
     "ultimateBody": "Each host has a signature ultimate, such as Slugger’s Full Swing Cyclone. Use skills built around area damage, summons, defense and crowd control.",
     "ultimateCaption": "Slugger’s ultimate animation and combat",
     "cards": "Choose cards.<br>Build your fighting style.",
-    "journey": "A chapter of battles<br>and meaningful choices.",
+    "journey": "Fight, choose and explore.<br>A new challenge in every chapter.",
     "growth": "Two progression paths:<br>your ghost and your hosts.",
     "challenge": "Specter Tower. Night of the Dead.<br>New rules to master.",
     "bossTitle": "The chapter ends with a boss battle",
@@ -146,12 +146,12 @@ export const revision = {
       [
         "Gems",
         "From in-app products, monthly plans and other rewards",
-        "Host-fragment summons · Instant chest opening · Stamina refills · Shop refreshes · Extra challenge entries"
+        "Host-shard summons · Instant chest opening · Stamina refills · Shop refreshes · Extra challenge entries"
       ],
       [
         "Gold",
         "From chapter/challenge rewards and relevant products",
-        "Ghost/host stat upgrades · Mastery progression · Today’s Shop fragments · Gold entry fees"
+        "Ghost/host stat upgrades · Mastery progression · Today’s Buy host shards in the shop · Gold entry fees"
       ],
       [
         "Stamina",
@@ -203,7 +203,7 @@ export const revision = {
     "cards": "カードを選び、<br>自分の戦い方を作ろう。",
     "journey": "戦闘と選択で進む、<br>チャプタープレイ。",
     "growth": "幽霊とホストを強化する、<br>2つの育成。",
-    "challenge": "スペクタータワーと亡霊の夜。<br>新たなルールに挑戦！",
+    "challenge": "亡霊の塔と亡霊の夜。<br>新たなルールに挑戦！",
     "bossTitle": "チャプターの最後に待つボス戦",
     "bossBody": "ボスには憑依できません。攻撃パターンを見極め、ホストのスキルを活用して攻略しましょう。",
     "bossNames": [

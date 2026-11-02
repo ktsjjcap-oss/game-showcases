@@ -326,7 +326,7 @@ export const copy = {
       ],
       [
         "10 · 20",
-        "Mid-boss",
+        "Miniboss",
         "Defeat a giant host leader and its allies"
       ],
       [
@@ -337,12 +337,12 @@ export const copy = {
       [
         "15",
         "Traveling merchant",
-        "Spend gold on cards, hosts and recovery"
+        "Spend gold on cards, hosts and recovery items"
       ],
       [
         "30",
         "Chapter boss",
-        "Defeat the boss → growth rewards"
+        "Defeat the boss → upgrade resources"
       ]
     ],
     "bossTitle": "Six bosses. Six final tests.",
@@ -351,11 +351,11 @@ export const copy = {
     "growthBody": "Gold and fragments earned in chapters fuel lasting progress. Develop your ghost to strengthen all hosts, and specialize in the hosts you love.",
     "growthItems": [
       [
-        "Ghost growth",
+        "Ghost upgrades",
         "Eight stats affect every host. Chapter completion grants XP toward ghost levels 1–50."
       ],
       [
-        "Host growth",
+        "Host upgrades",
         "Fragments raise mastery; gold improves stats. Mastery Lv.1 unlocks active and passive skills."
       ],
       [
@@ -374,30 +374,30 @@ export const copy = {
         "Survive for five minutes. Daily conditions and host choices create a fresh record challenge."
       ]
     ],
-    "modeNote": "3 free entries per mode daily · Extra entries with gems · Gold and host-fragment rewards",
+    "modeNote": "3 free entries per mode daily · Extra entries with gems · Gold and host-shard rewards",
     "economy": "Collection and growth.<br>Clearly connected.",
     "economyLead": "Figures and products below come from the proposal and are not confirmed launch information.",
-    "summonTitle": "Host-fragment summoning",
+    "summonTitle": "Host-shard summoning",
     "summonBody": "60 gems for one · 540 for ten · One free daily summon. Grade rates: R 75%, SR 25%. SSR is excluded from summoning.",
-    "summonNote": "SR host fragments guaranteed at least once per 10 summons · 20 fragments every 50 summons · Obtain SSR hosts through shops, rewards and essence exchange",
+    "summonNote": "At least one SR host-shard reward guaranteed per 10 summons · 20 fragments every 50 summons · Obtain SSR hosts through shops, rewards and essence exchange",
     "chests": [
       [
         "Silver Chest",
         "R · SR",
-        "6–10 host fragments"
+        "6–10 host shards"
       ],
       [
         "Gold Chest",
         "R · SR · SSR",
-        "14–22 host fragments · SSR weight 7%"
+        "14–22 host shards · SSR rarity rate: 7%"
       ],
       [
         "Platinum Chest",
         "R · SR · SSR",
-        "28–40 host fragments · SSR weight 25%"
+        "28–40 host shards · SSR rarity rate: 25%"
       ]
     ],
-    "products": "Business model & products",
+    "products": "Monetization & in-app purchases",
     "productItems": [
       [
         "Starter packs",
@@ -415,12 +415,12 @@ export const copy = {
         "28 days · 30 tiers · Standard / bundle"
       ],
       [
-        "30-Day Plan (Small)",
+        "30-Day Pass (Basic)",
         "₩5,900",
         "30 days · 300 gems now / 90 gems + 20 stamina daily"
       ],
       [
-        "30-Day Plan (Large)",
+        "30-Day Pass (Premium)",
         "₩19,000",
         "30 days · 1,000 gems now / 200 daily · Max stamina +20"
       ],
@@ -433,7 +433,7 @@ export const copy = {
     "ending": "A new host.<br>One more run.",
     "endBody": "The spirit of possession.<br>A new world of choices and growth.",
     "footer": "The game is in development. Content and product offerings are subject to change.",
-    "imageNote": "Updated Korean gameplay screens are shown alongside earlier shop and summoning UI. The main visual is a promotional illustration.",
+    "imageNote": "Gameplay screenshots are from the Korean build. Some shop and summoning screens show an earlier UI version. The key art is a promotional illustration.",
     "source": "Initial concept",
     "reference": "Design reference",
     "top": "Back to top",
@@ -538,7 +538,7 @@ export const copy = {
       [
         "01",
         "最初のホスト",
-        "選んだホストで開始・戦闘中にサポート加入"
+        "選んだホストで開始・戦闘中にサポートを仲間にする"
       ],
       [
         "05 · 25",
@@ -548,17 +548,17 @@ export const copy = {
       [
         "10 · 20",
         "中ボス",
-        "巨大ホストリーダーと配下を突破"
+        "大型ホストの中ボスと配下を撃破"
       ],
       [
-        "10の後",
+        "10ステージ以降",
         "悪魔の祭壇",
         "代償を払いカード獲得"
       ],
       [
         "15",
         "旅の商人",
-        "ゴールドでカード・ホスト・回復を購入"
+        "ゴールドでカード・ホスト・回復アイテムを購入"
       ],
       [
         "30",
@@ -581,13 +581,13 @@ export const copy = {
       ],
       [
         "収集の循環",
-        "プレイ・ショップ・宝箱・挑戦で欠片を収集。熟練度最大後の余剰欠片は精髄に交換できます。"
+        "プレイ・ショップ・宝箱・挑戦で欠片を収集。熟練度最大後の余剰欠片はエッセンスに交換できます。"
       ]
     ],
     "challenge": "違うルールで、<br>もう一度挑戦。",
     "modes": [
       [
-        "スペクタータワー",
+        "亡霊の塔",
         "10階ごとの構成を登りながら、変化するルールを攻略。週間報酬を目指します。"
       ],
       [
@@ -600,22 +600,22 @@ export const copy = {
     "economyLead": "以下の数値・商品は企画案に基づくもので、発売時の確定情報ではありません。",
     "summonTitle": "ホストの欠片召喚",
     "summonBody": "1回60ジェム · 10回540ジェム · 毎日1回無料。排出率はR 75%、SR 25%。SSRは召喚から排出されません。",
-    "summonNote": "10回召喚でSRの欠片が1回以上確定 · 累計50回ごとに欠片20個 · SSRはショップ、報酬、精髄交換などで入手",
+    "summonNote": "10回召喚でSRの欠片が1回以上確定 · 累計50回ごとに欠片20個 · SSRはショップ、報酬、エッセンス交換などで入手",
     "chests": [
       [
-        "シルバー宝箱",
+        "シルバーチェスト",
         "R · SR",
         "ホストの欠片6～10個"
       ],
       [
-        "ゴールド宝箱",
+        "ゴールドチェスト",
         "R · SR · SSR",
-        "ホストの欠片14～22個 · SSRの抽選比率7%"
+        "ホストの欠片14～22個 · SSR抽選率7%"
       ],
       [
-        "プラチナ宝箱",
+        "プラチナチェスト",
         "R · SR · SSR",
-        "ホストの欠片28～40個 · SSRの抽選比率25%"
+        "ホストの欠片28～40個 · SSR抽選率25%"
       ]
     ],
     "products": "BM構造と商品構成",
@@ -633,28 +633,28 @@ export const copy = {
       [
         "シーズンパス",
         "₩12,000 / 25,000",
-        "28日 · 30段階 · 通常 / バンドル"
+        "28日 · 30ティア · 通常 / バンドル"
       ],
       [
-        "30日契約（小）",
+        "30日パス（ベーシック）",
         "₩5,900",
         "30日 · 即時300ジェム / 毎日90ジェム・20スタミナ"
       ],
       [
-        "30日契約（大）",
+        "30日パス（プレミアム）",
         "₩19,000",
         "30日 · 即時1,000ジェム / 毎日200ジェム · 最大スタミナ+20"
       ],
       [
-        "ジェム商品",
+        "ジェムパック",
         "₩1,200–129,000",
-        "初回購入2倍"
+        "初回購入時のジェム2倍"
       ]
     ],
     "ending": "新たなホストで、<br>もう1ラン。",
     "endBody": "憑依の楽しさを受け継ぎ、<br>選択と成長でプレイを広げます。",
     "footer": "本作は開発中です。コンテンツや商品内容は変更される場合があります。",
-    "imageNote": "最新の韓国語ゲーム画面を中心に構成。一部のショップ・召喚画像は以前のUIで、メインビジュアルは紹介用イラストです。",
+    "imageNote": "ゲーム画面は韓国語版のものです。一部のショップ・召喚画面は旧バージョンのUIです。メインビジュアルはプロモーション用イラストです。",
     "source": "初期紹介資料",
     "reference": "デザイン参考",
     "top": "トップへ",

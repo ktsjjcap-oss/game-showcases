@@ -245,7 +245,7 @@ export const partyCopy = {
         "−20"
       ],
       [
-        "Promote a support",
+        "Set a support as the main host",
         "−5"
       ],
       [
@@ -262,7 +262,7 @@ export const partyCopy = {
     "factions": [
       [
         "Gang",
-        "Higher critical chance"
+        "Higher critical hit chance"
       ],
       [
         "Commando Unit",
@@ -274,11 +274,11 @@ export const partyCopy = {
       ],
       [
         "Monsters",
-        "Recover HP on enemy defeats"
+        "Recover HP when enemies are defeated"
       ],
       [
         "Mystics",
-        "Shorter support-skill intervals"
+        "More frequent support skills"
       ]
     ],
     "bondLabel": "BONDS",
@@ -309,13 +309,13 @@ export const partyCopy = {
       "Bullet Fortress fires five streams forward"
     ],
     "mediumTitle": "The Medium strengthens the party with buffs",
-    "mediumBody": "Spirit Infusion boosts party damage and critical chance. Channeling Ritual increases attack speed and critical damage.",
+    "mediumBody": "Spirit Infusion boosts party damage and critical hit chance. Channeling Ritual increases attack speed and critical hit damage.",
     "journeyCaption": "An Angel Altar encountered during a chapter",
     "growthTitle": "Ghost stats.<br>Host star ranks and skills.",
     "growthLead": "Shared stat upgrades strengthen every host, while individual skill upgrades develop each host’s strengths. Gold and fragments earned through play prepare your next party.",
     "growthNames": [
-      "Ghost growth",
-      "Host growth"
+      "Ghost upgrades",
+      "Host upgrades"
     ],
     "growthBodies": [
       "Spend gold on eight shared stats. Your ghost level determines their upgrade cap.",
@@ -328,8 +328,8 @@ export const partyCopy = {
     "statNames": [
       "Attack",
       "Host HP",
-      "Critical chance",
-      "Critical damage",
+      "Critical hit chance",
+      "Critical hit damage",
       "Attack speed",
       "Movement speed",
       "Range",
@@ -433,7 +433,7 @@ export const partyCopy = {
         "−5"
       ],
       [
-        "現在のホストを復活",
+        "倒れたホストを復活",
         "−40"
       ]
     ],
@@ -446,7 +446,7 @@ export const partyCopy = {
     "factions": [
       [
         "ギャング団",
-        "会心率が上昇"
+        "クリティカル率が上昇"
       ],
       [
         "コマンドー部隊",
@@ -462,7 +462,7 @@ export const partyCopy = {
       ],
       [
         "魔術師",
-        "サポートスキルの使用間隔が短縮"
+        "サポートのスキル使用間隔を短縮"
       ]
     ],
     "bondLabel": "絆",
@@ -493,7 +493,7 @@ export const partyCopy = {
       "前方へ5列の弾幕を放つ実際の戦闘画面"
     ],
     "mediumTitle": "霊媒師はパーティを強化するバフ型ホスト",
-    "mediumBody": "「魂の付与」はパーティのダメージと会心率を高め、「降霊儀式」は攻撃速度と会心ダメージを強化します。",
+    "mediumBody": "「魂の付与」はパーティのダメージとクリティカル率を高め、「降霊儀式」は攻撃速度とクリティカルダメージを強化します。",
     "journeyCaption": "チャプターの途中に登場する天使の祭壇",
     "growthTitle": "幽霊は能力値。<br>ホストは星ランクとスキル。",
     "growthLead": "全ホストに適用される共通の能力強化と、各ホストの個性を伸ばすスキル育成。プレイで得たゴールドと欠片が、次のパーティの力になります。",
@@ -512,8 +512,8 @@ export const partyCopy = {
     "statNames": [
       "攻撃力",
       "ホストHP",
-      "会心率",
-      "会心ダメージ",
+      "クリティカル率",
+      "クリティカルダメージ",
       "攻撃速度",
       "移動速度",
       "射程",
@@ -536,7 +536,7 @@ export const partyCopy = {
     "growthNote": "プレイ中にメイン・サポートとして参加したホストの欠片を獲得。基本報酬は敗北時に各1個、クリア時に各2個です。",
     "modesTitle": "タワーと夜にも広がる、<br>憑依パーティの挑戦。",
     "modeNames": [
-      "スペクタータワー",
+      "亡霊の塔",
       "亡霊の夜"
     ],
     "modeBodies": [
@@ -544,7 +544,7 @@ export const partyCopy = {
       "日替わり条件に合う3体のホストから、フィールド上で1体を選択。5分間生き残り、最後のボスに挑みましょう。"
     ],
     "modeCaptions": [
-      "スペクタータワー1階 · 近接ホストが登場するルール",
+      "亡霊の塔1階 · 近接ホストが登場するルール",
       "亡霊の夜 · フィールド上で本日のホストを選択"
     ],
     "modeNote": "両モードとも敵をタップして憑依し、パーティで戦います。各モード1日3回無料。ジェムで追加挑戦できます。",
