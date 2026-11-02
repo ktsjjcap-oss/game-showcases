@@ -145,7 +145,7 @@ export const details = {
     "cashFlow": "젬 상품 · 패키지 · 30일 계약 · 시즌 패스",
     "gemUses": "소환 · 상자 구매 · 행동력 충전 · 상점 새로고침 · 도전 모드 추가 입장",
     "goldFrom": "플레이 보상·상점·패스",
-    "goldUses": "호스트 출전비 · 유령 능력치 강화 · 호스트 성급·스킬 강화 · 상점 조각 구매",
+    "goldUses": "호스트 출전비 · 유령 능력치 강화 · 호스트 스킬 강화 · 상점 조각 구매",
     "staminaUses": "챕터 입장 −5 · 시간 회복 · 젬 충전",
     "loopTitle": "플레이와 수집·성장이 이어지는 순환",
     "loop": [
@@ -324,7 +324,7 @@ export const details = {
     "cashFlow": "Gem packs · Bundles · 30-day plans · Season pass",
     "gemUses": "Summons · Chest purchases · Stamina refills · Shop refreshes · Extra challenge entries",
     "goldFrom": "Play rewards · Shop · Pass",
-    "goldUses": "Host deployment · Ghost stat upgrades · Host star ranks and skills · Shop fragments",
+    "goldUses": "Host deployment · Ghost stat upgrades · Host skill upgrades · Shop fragments",
     "staminaUses": "Chapter entry: −5 · Recovers over time · Refill with gems",
     "loopTitle": "The play, collection and progression loop",
     "loop": [
@@ -503,7 +503,7 @@ export const details = {
     "cashFlow": "ジェム商品 · パック · 30日契約 · シーズンパス",
     "gemUses": "召喚 · 宝箱購入 · スタミナ回復 · ショップ更新 · モードへの追加挑戦",
     "goldFrom": "プレイ報酬・ショップ・パス",
-    "goldUses": "ホスト出撃費用 · 幽霊の能力強化 · ホストの星ランク・スキル強化 · ショップで欠片購入",
+    "goldUses": "ホスト出撃費用 · 幽霊の能力強化 · ホストのスキル強化 · ショップで欠片購入",
     "staminaUses": "チャプター入場 −5・時間回復・ジェムで補充",
     "loopTitle": "プレイ・収集・育成の循環",
     "loop": [
