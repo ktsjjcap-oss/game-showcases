@@ -91,37 +91,37 @@ export const copy = {
     ],
     "cardNote": "일반 · 희귀 · 영웅 · 전설 / 중복 카드는 최대 Lv.5 / 호스트 교체 후에도 유지",
     "journey": "30개의 스테이지.<br>매번 달라지는 선택.",
-    "journeyLead": "20개 챕터, 챕터마다 30개 스테이지. 전투로 보상을 모으고, 제단과 상인에서 준비한 뒤 챕터 보스에 도전하세요.",
+    "journeyLead": "20개 챕터 × 30개 스테이지",
     "milestones": [
       [
         "01",
         "첫 호스트",
-        "유령으로 출전해 첫 호스트를 고르고, 전투 중 보조를 영입합니다."
+        "선택한 호스트로 시작 · 전투 중 보조 영입"
       ],
       [
         "05 · 25",
         "천사의 제단",
-        "세 가지 무료 보상 중 하나를 선택합니다."
+        "무료 보상 3개 중 1개 선택"
       ],
       [
         "10 · 20",
         "중간 보스",
-        "거대 호스트 리더와 부하를 돌파합니다."
+        "거대 호스트 리더와 부하 돌파"
       ],
       [
         "10 이후",
         "악마의 제단",
-        "대가를 지불하고 강력한 카드를 얻습니다."
+        "대가를 지불하고 카드 획득"
       ],
       [
         "15",
         "떠돌이 상인",
-        "모은 골드로 카드·호스트·회복 아이템을 구매합니다."
+        "골드로 카드·호스트·회복 구매"
       ],
       [
         "30",
         "챕터 보스",
-        "챕터 보스를 처치하고 성장에 필요한 보상을 획득합니다."
+        "보스 처치 → 성장 보상"
       ]
     ],
     "bossTitle": "끝에서 기다리는, 여섯 보스.",
@@ -312,37 +312,37 @@ export const copy = {
     ],
     "cardNote": "Common · Rare · Epic · Legendary / Duplicates upgrade to Lv.5 / Retained after switching hosts",
     "journey": "30 stages.<br>A run shaped by choices.",
-    "journeyLead": "Twenty chapters, with thirty stages each. Collect rewards in battle, prepare at altars and merchants, then challenge the chapter boss.",
+    "journeyLead": "20 chapters × 30 stages",
     "milestones": [
       [
         "01",
         "Your first host",
-        "Deploy as a ghost, choose your first host and recruit supports during combat."
+        "Start with your chosen host · recruit supports"
       ],
       [
         "05 · 25",
         "Angel altar",
-        "Choose one of three free rewards."
+        "Choose 1 of 3 free rewards"
       ],
       [
         "10 · 20",
         "Mid-boss",
-        "Break through a giant host leader and its minions."
+        "Defeat a giant host leader and its allies"
       ],
       [
         "AFTER 10",
         "Demon altar",
-        "Pay a price for a powerful card."
+        "Pay a cost to gain a card"
       ],
       [
         "15",
         "Traveling merchant",
-        "Spend collected gold on cards, hosts and healing items."
+        "Spend gold on cards, hosts and recovery"
       ],
       [
         "30",
         "Chapter boss",
-        "Win the final fight and bring home growth rewards."
+        "Defeat the boss → growth rewards"
       ]
     ],
     "bossTitle": "Six bosses. Six final tests.",
@@ -533,37 +533,37 @@ export const copy = {
     ],
     "cardNote": "コモン · レア · エピック · レジェンダリー / 重複で最大Lv.5 / ホスト変更後も維持",
     "journey": "30のステージ。<br>選択が1ランを変える。",
-    "journeyLead": "全20チャプター、各30ステージ。戦闘で報酬を集め、祭壇や商人で準備してからチャプターボスに挑みましょう。",
+    "journeyLead": "20チャプター × 30ステージ",
     "milestones": [
       [
         "01",
         "最初のホスト",
-        "幽霊で出撃して最初のホストを選び、戦闘中にサポートを仲間に加えます。"
+        "選んだホストで開始・戦闘中にサポート加入"
       ],
       [
         "05 · 25",
         "天使の祭壇",
-        "3つの無料報酬から1つを選択。"
+        "無料報酬3つから1つ選択"
       ],
       [
         "10 · 20",
         "中ボス",
-        "巨大なホストリーダーと配下を突破。"
+        "巨大ホストリーダーと配下を突破"
       ],
       [
         "10の後",
         "悪魔の祭壇",
-        "代償を払い、強力なカードを獲得。"
+        "代償を払いカード獲得"
       ],
       [
         "15",
         "旅の商人",
-        "集めたゴールドでカード、ホスト、回復アイテムを購入します。"
+        "ゴールドでカード・ホスト・回復を購入"
       ],
       [
         "30",
         "チャプターボス",
-        "最後の戦いを制し、育成報酬を持ち帰ります。"
+        "ボス撃破 → 育成報酬"
       ]
     ],
     "bossTitle": "最後に待つ、6体のボス。",

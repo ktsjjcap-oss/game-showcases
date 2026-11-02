@@ -126,7 +126,7 @@ export const partyCopy = {
     ],
     "mediumTitle": "영매는 파티를 강화하는 버프형 호스트",
     "mediumBody": "「혼 깃들이기」는 파티의 피해와 치명타 확률을 높이고, 「강신 의식」은 공격 속도와 치명타 피해를 강화합니다.",
-    "journeyCaption": "한국어 로비와 챕터 출전 화면",
+    "journeyCaption": "챕터 진행 중 만나는 천사의 제단",
     "growthTitle": "유령은 능력치를,<br>호스트는 성급과 스킬을.",
     "growthLead": "모든 호스트에 적용되는 공통 능력치와, 한 호스트의 개성을 키우는 스킬 성장을 분리했습니다. 플레이로 얻은 골드와 조각이 다음 파티의 전력이 됩니다.",
     "growthNames": [
@@ -310,7 +310,7 @@ export const partyCopy = {
     ],
     "mediumTitle": "The Medium strengthens the party with buffs",
     "mediumBody": "Spirit Infusion boosts party damage and critical chance. Channeling Ritual increases attack speed and critical damage.",
-    "journeyCaption": "The updated lobby and chapter deployment screen",
+    "journeyCaption": "An Angel Altar encountered during a chapter",
     "growthTitle": "Ghost stats.<br>Host star ranks and skills.",
     "growthLead": "Shared stat upgrades strengthen every host, while individual skill upgrades develop each host’s strengths. Gold and fragments earned through play prepare your next party.",
     "growthNames": [
@@ -494,7 +494,7 @@ export const partyCopy = {
     ],
     "mediumTitle": "霊媒師はパーティを強化するバフ型ホスト",
     "mediumBody": "「魂の付与」はパーティのダメージと会心率を高め、「降霊儀式」は攻撃速度と会心ダメージを強化します。",
-    "journeyCaption": "最新のロビーとチャプター出撃画面",
+    "journeyCaption": "チャプターの途中に登場する天使の祭壇",
     "growthTitle": "幽霊は能力値。<br>ホストは星ランクとスキル。",
     "growthLead": "全ホストに適用される共通の能力強化と、各ホストの個性を伸ばすスキル育成。プレイで得たゴールドと欠片が、次のパーティの力になります。",
     "growthNames": [

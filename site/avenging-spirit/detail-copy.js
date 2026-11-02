@@ -136,7 +136,7 @@ export const details = {
       "적 처치 보상 · 호스트 조각과 골드"
     ],
     "bmTitle": "어벤징 스피릿-M<br>BM 구조와 상품 구성",
-    "bmLead": "젬 상품·패키지·30일 계약·시즌 패스를 제공합니다. 구매한 재화와 플레이 보상은 호스트 수집, 성장, 추가 도전에 사용합니다.",
+    "bmLead": "수집·성장·추가 도전으로 이어지는 재화와 상품.",
     "cash": "인앱 결제",
     "gem": "젬",
     "gold": "골드",
@@ -146,7 +146,7 @@ export const details = {
     "gemUses": "소환 · 상자 구매 · 행동력 충전 · 상점 새로고침 · 도전 모드 추가 입장",
     "goldFrom": "플레이 보상·상점·패스",
     "goldUses": "호스트 출전비 · 유령 능력치 강화 · 호스트 성급·스킬 강화 · 상점 조각 구매",
-    "staminaUses": "챕터 입장 시 행동력 5 소모 · 시간에 따라 회복하거나 젬으로 충전",
+    "staminaUses": "챕터 입장 −5 · 시간 회복 · 젬 충전",
     "loopTitle": "플레이와 수집·성장이 이어지는 순환",
     "loop": [
       "챕터·도전 플레이",
@@ -315,7 +315,7 @@ export const details = {
       "Rewards for enemy defeats · Host fragments and gold"
     ],
     "bmTitle": "AVENGING SPIRIT-M<br>Business model & products",
-    "bmLead": "Gem packs, bundles, 30-day plans and a season pass support host collection, progression and extra challenges alongside rewards earned through play.",
+    "bmLead": "Currencies and products for collection, upgrades and extra challenges.",
     "cash": "In-app payment",
     "gem": "Gems",
     "gold": "Gold",
@@ -325,7 +325,7 @@ export const details = {
     "gemUses": "Summons · Chest purchases · Stamina refills · Shop refreshes · Extra challenge entries",
     "goldFrom": "Play rewards · Shop · Pass",
     "goldUses": "Host deployment · Ghost stat upgrades · Host star ranks and skills · Shop fragments",
-    "staminaUses": "5 stamina per chapter entry · Regenerates over time or refills with gems",
+    "staminaUses": "Chapter entry: −5 · Recovers over time · Refill with gems",
     "loopTitle": "The play, collection and progression loop",
     "loop": [
       "Play chapters & challenges",
@@ -494,7 +494,7 @@ export const details = {
       "敵の撃破報酬 · ホストの欠片とゴールド"
     ],
     "bmTitle": "AVENGING SPIRIT-M<br>収益モデルと商品構成",
-    "bmLead": "ジェム商品、パック、30日契約、シーズンパスを用意。購入した通貨とプレイ報酬を、ホストの収集、育成、追加挑戦に使用します。",
+    "bmLead": "収集・育成・追加挑戦につながる通貨と商品。",
     "cash": "アプリ内課金",
     "gem": "ジェム",
     "gold": "ゴールド",
@@ -504,7 +504,7 @@ export const details = {
     "gemUses": "召喚 · 宝箱購入 · スタミナ回復 · ショップ更新 · モードへの追加挑戦",
     "goldFrom": "プレイ報酬・ショップ・パス",
     "goldUses": "ホスト出撃費用 · 幽霊の能力強化 · ホストの星ランク・スキル強化 · ショップで欠片購入",
-    "staminaUses": "チャプター開始時にスタミナ5消費 · 時間経過またはジェムで回復",
+    "staminaUses": "チャプター入場 −5・時間回復・ジェムで補充",
     "loopTitle": "プレイ・収集・育成の循環",
     "loop": [
       "チャプター・モードに挑戦",
