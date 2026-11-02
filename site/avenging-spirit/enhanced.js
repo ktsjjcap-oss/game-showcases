@@ -1,5 +1,5 @@
-import {summonPrices,summonRules,termList} from './bm-guide.js?v=20261102r3';
-import {details} from './detail-copy.js?v=20261102r3';
+import {summonPrices,summonRules,termList} from './bm-guide.js?v=20261102r4';
+import {details} from './detail-copy.js?v=20261102r4';
 const src=(n,alt='',cls='')=>`<img class="${cls}" src="assets/source/${n}" alt="${alt}" loading="lazy">`;
 const screen=(n,caption,cls='')=>`<figure class="source-phone ${cls}"><div>${src(n,caption)}</div><figcaption>${caption}</figcaption></figure>`;
 const kicker=(n,title)=>`<p class="eyebrow"><span>${n}</span> ${title}</p>`;
