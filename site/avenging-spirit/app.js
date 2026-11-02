@@ -1,10 +1,10 @@
-import {bindReviewUI} from './review.js?v=20261102r4';
-import {copy} from './copy.js?v=20261102r4';
-import {revision} from './revision-copy.js?v=20261102r4';
-import {elements,economy} from './enhanced.js?v=20261102r4';
-import {partyIntro,possession,synergies,partyCards,partyGrowth,partyModes,ultimateShowcase} from './party.js?v=20261102r4';
-import {partyCopy} from './party-copy.js?v=20261102r4';
-import {hostRoster} from './roster.js?v=20261102r4';
+import {bindReviewUI} from './review.js?v=20261102r5';
+import {copy} from './copy.js?v=20261102r5';
+import {revision} from './revision-copy.js?v=20261102r5';
+import {elements,economy} from './enhanced.js?v=20261102r5';
+import {partyIntro,possession,synergies,partyCards,partyGrowth,partyModes,ultimateShowcase} from './party.js?v=20261102r5';
+import {partyCopy} from './party-copy.js?v=20261102r5';
+import {hostRoster} from './roster.js?v=20261102r5';
 let lang=new URLSearchParams(location.search).get('lang');try{lang=lang||localStorage.getItem('avenging-language')}catch{}if(!copy[lang])lang='ko';
 const img=(name,alt='',cls='')=>`<img class="${cls}" src="assets/${name}.webp" alt="${alt}" loading="lazy">`;
 const phone=(name,alt)=>`<figure class="phone">${img(name,alt)}<figcaption>${alt}</figcaption></figure>`;
