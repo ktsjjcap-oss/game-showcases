@@ -58,7 +58,6 @@ h1{font-size:clamp(46px,6vw,92px);max-width:760px;text-shadow:0 5px 28px #030714
 .shot-link::after{content:"＋";position:absolute;bottom:5px;right:6px;color:#d8fbff;background:#0c182be8;padding:0 5px;border:1px solid #5e7196;font-weight:800}
 .shot-link:hover{border-color:var(--cyan)}
 .shot-link img{width:100%;aspect-ratio:9/16;object-fit:contain}
-.shot-19 img{aspect-ratio:1080/1110}
 figcaption{padding:7px 4px 0;text-align:center;font-size:14px;color:#d9e2f8;line-height:1.35}
 figcaption small{color:var(--gold);white-space:nowrap}
 .screen-ribbon{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:18px;max-width:940px;margin:35px auto 0}

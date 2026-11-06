@@ -23,7 +23,7 @@ const metadata = {
 const escape = s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 function shot(id, hero=false) {
   const title=t(metadata[id]);
-  const src=asset(id+'-'+uiLang);
+  const src=asset(id+'-'+uiLang+(id==='19'?'-full':''));
   return `<figure class="shot shot-${id}"><a class="shot-link" href="${src}" data-shot="${src}" aria-label="${escape(title)}"><img src="${src}" alt="${escape(title)}" ${hero?'fetchpriority="high"':'loading="lazy"'}></a><figcaption>${title}${lang==='en'?' <small>JP UI</small>':''}</figcaption></figure>`;
 }
 const hostOrder = {
