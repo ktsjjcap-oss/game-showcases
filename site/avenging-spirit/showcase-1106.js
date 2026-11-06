@@ -1,5 +1,5 @@
 import {artboards,icon} from './visual-r2.js?v=20261106r2';
-import {blocks} from './edition-1106.js?v=20261106r1';
+import {blocks} from './edition-1106.js?v=20261106r3';
 import {hosts} from './roster.js?v=20261102r7';
 import {revision} from './revision-copy.js?v=20261102r7';
 
@@ -9,12 +9,13 @@ const index = ['ko','ja','en'].indexOf(lang);
 const t = value => value.split('|')[index].trim();
 const asset = name => './assets/edition-1106/'+name+'.webp';
 const uiLang = lang==='en' ? 'ja' : lang;
-const version = '20261106r2';
+const version = '20261106r3';
 const metadata = {
   '01':'출전 호스트|出撃ホスト|Starting host','02':'메인과 보조 2명|メインとサポート2体|Main and two supports',
   '03':'빙의 선택|憑依の選択|Possession choices','04':'유령 HP와 보조 잠금|幽霊HPとサポート枠のロック|Ghost HP and support locks',
   '05':'메인 승격 선택|メイン昇格の選択|Choose a support to promote','06':'레벨업 카드 선택|レベルアップカードの選択|Level-up card choice',
   '07':'천사 제단|天使の祭壇|Angel Shrine','08':'악마 제단|悪魔の祭壇|Devil Shrine','09':'떠돌이 상인|旅の商人|Traveling merchant',
+  '10':'방 진행 알림|部屋の進行通知|Room progress notification',
   '11':'호스트 목록|ホスト一覧|Host roster','12':'호스트 성장|ホスト育成|Host growth','13':'스킬 정보|スキル詳細|Skill details','14':'유령 성장|幽霊育成|Ghost growth',
   '15':'도전 모드|チャレンジモード|Challenge modes','16':'탑 층과 보상|塔の階層と報酬|Tower floors and rewards','17':'탑 전투|塔の戦闘|Tower combat','18':'탑 클리어|塔のクリア結果|Tower clear',
   '19':'골드 던전 입장|ゴールドダンジョン入場|Gold Dungeon entry','20':'골드 던전 전투|ゴールドダンジョン戦闘|Gold Dungeon combat','21':'보스 경고|ボス出現警告|Boss warning',
@@ -23,7 +24,7 @@ const metadata = {
 const escape = s=>s.replaceAll('&','&amp;').replaceAll('"','&quot;').replaceAll('<','&lt;').replaceAll('>','&gt;');
 function shot(id, hero=false) {
   const title=t(metadata[id]);
-  const src=asset(id+'-'+uiLang+(id==='19'?'-full':''));
+  const src=asset(id+'-'+uiLang+((id==='19'||id==='10')?'-full':''));
   return `<figure class="shot shot-${id}"><a class="shot-link" href="${src}" data-shot="${src}" aria-label="${escape(title)}"><img src="${src}" alt="${escape(title)}" ${hero?'fetchpriority="high"':'loading="lazy"'}></a><figcaption>${title}${lang==='en'?' <small>JP UI</small>':''}</figcaption></figure>`;
 }
 const hostOrder = {
